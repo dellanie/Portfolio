@@ -1,0 +1,12 @@
+.skillsimage>img{
+    max-width: 90px;
+    max-height: 90px;
+    background-color: black !important;
+}
+
+@media (max-width:500px) {
+    .skillsimage>img{
+        max-width: 45px;
+        max-height: 45px;
+    }
+}

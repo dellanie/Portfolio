@@ -1,0 +1,12 @@
+.home{
+    background-image: url("/src/image/desert.jpg");
+    background-size:cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+@media (max-width:500px) {
+    .home{
+        height: 100vh;
+    }
+}

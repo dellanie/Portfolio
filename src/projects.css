@@ -1,0 +1,40 @@
+.projects{
+    background-image: url("/src/image/desert.jpg");
+    background-size:cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+@media (max-width:500px) {
+    .projecthead{
+        margin-bottom: 10vh !important;
+    }
+}
+
+.projectcards{
+    display: flex;
+    margin-top: 20vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+.projectcardss{
+    display: flex;
+    margin-top: 20vh;
+    margin-right: 5vw;
+}
+
+@media (max-width:500px) {
+    .projectcards{
+        margin-top: 0vh;
+        display: grid;
+    }
+    
+}
+
+@media (max-width:500px) {
+    .projectcardss{
+        margin-top: 0vh;
+        display: grid;
+    }
+    
+}

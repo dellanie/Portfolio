@@ -1,0 +1,25 @@
+.skills{
+    padding: 5px;
+    margin-top: 10vh;
+}
+.skills>h1{
+    color: cornsilk;
+    padding: 5px;
+    margin-bottom: 10px;
+    margin: 5px;
+}
+.skillsimage{
+    display: flex;
+    justify-content: space-evenly;
+    transition: transform 100ms ease-in;
+}
+
+.skillsimage>:hover{
+    transform: scale(1.02);
+}
+
+@media (max-width:500px) {
+    .skills>h1{
+        font-size: 20px;
+    }
+}

@@ -1,0 +1,31 @@
+.contact{
+    background-image: url("/src/image/desert.jpg");
+    background-size:cover;
+    height: 100vh;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.contact_body{
+    margin-top: 20vh;
+    text-align: center;
+}
+.contact_body>h1{
+    color: cornsilk;
+}
+
+.contact_icon{
+    margin-top: 20px;
+    padding: 5px;
+    text-align: center;
+}
+.contact_icon>h3{
+    padding: 5px;
+    
+}
+.contact-i{
+    padding: 5px;
+    color: black !important;
+    margin-top: 10px;
+    font-size:50px !important;
+}

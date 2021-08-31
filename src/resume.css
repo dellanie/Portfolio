@@ -1,0 +1,19 @@
+.resume{
+    text-align: center;
+    margin-top: 10vh;
+}
+.resume>a{
+    font-size: 50px;
+    font-weight: 500;
+    color: cornsilk;
+    text-decoration: none;
+}
+.resume>a:hover{
+    color: white;
+}
+
+@media (max-width:500px) {
+    .resume>a{
+        font-size: 25px;
+    }
+}

@@ -1,0 +1,37 @@
+.projectcard{
+    margin: 5px;
+    text-align: center;
+    justify-content: space-evenly;
+}
+
+.projectcard>img{
+    width: 300px;
+    height: 200px;
+}
+
+.projectcard>p{
+    padding: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    color: cornsilk;
+    width: 50%;
+}
+
+.projectbuttons>a>button{
+    margin-top: 20px;
+    background-color: whitesmoke !important;
+}
+
+.probutton:hover{
+    color: wheat;
+    background-color: black !important;
+}
+
+.projectbuttons>a{
+    text-decoration: none;
+}
+
+@media (max-width:500px) {
+    .projectbuttons>a>button{
+        margin-bottom: 25px }
+}
